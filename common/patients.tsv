@@ -1,0 +1,77 @@
+DONOR_ID	Gender	DOB	Operation Date	Pathology	Primary Tumour
+BM001	M	5/1/1968	7/15/2021	Renal Cell Carcinoma	renal
+BM002	F	12/5/1968	7/30/2021	Edometrial Adenocarcinoma	endometrial
+BM003	F	12/18/1939	8/4/2021	Metastatic Melanoma	melanoma
+BM004	F	7/5/1953	8/13/2021	Breast Primary	breast
+BM005	F	1/24/1943	8/16/2021	Breast Primary	breast
+BM006	M	7/12/1981	8/23/2021	Colorectal Primary	colorectal
+BM007	M	5/24/1997	9/15/2021	? Testicular Cancer	testicular
+BM008	F	9/14/1944	9/20/2021	Unknown Primary	CUP
+BM009	F	7/1/1983	9/20/2021	Breast Primary	breast
+BM010	F	4/16/1970	10/6/2021	Lung	lung
+BM011	F	3/25/1971	10/12/2021	Small Cell Neuroendocrine carcinoma	small cell neuroendocrine
+BM012	M	10/9/1951	10/21/2021	Metastatic squamous cell carcinoma	squamous
+BM013	M	1/12/1949	11/11/2021	Metastatic Melanoma	melanoma
+BM014	M	9/21/1956	11/15/2021	Metastatic Colorectal Carcinoma	colorectal
+BM015	F	10/18/1971	11/18/2021	Metastatic breast carcinoma	breast
+BM016	F	7/20/1950	11/24/2021	Metastatic colorectal adenocarcinoma and radionecrosis	colorectal
+BM017	F	6/1/1952	12/17/2021	Melanoma	melanoma
+BM018	F	12/28/1948	2/16/2022	Melanoma	melanoma
+BM019	M	10/6/1958	2/21/2022	Renal Cell Carcinoma	renal
+BM020	F	2/14/1952	2/24/2022	Metastatic Adenocarcinoma	lung
+BM021	F	6/4/1944	3/7/2022	Renal Cell Carcinoma	renal
+BM022	M	10/17/1956	3/22/2022	Lung Adenocarcinoma	lung
+BM023	F	10/10/1962	4/17/2022	Metastatic poorly differentiated carcinoma	unknown
+BM024	M	10/9/1951	4/28/2022	Right motor cortex metastasis: metastatic carcinoma features in keeping with a lung primary	lung
+BM025	M	1/9/1961	5/10/2022	Metastatic moderately differentiated squamous cell carcinoma	squamous 
+BM026	F	5/28/1966	5/19/2022	Metastatic breast carcinoma	breast
+BM027	M	9/1/1955	6/7/2022	Consistent with poorly differentiated adenocarcinoma of lung primary	lung
+BM028	F	11/26/1976	4/4/2022	Lung Adenocarcinoma	lung
+BM029	M	11/5/1956	6/17/2022	Metastatic Squamous Cell Carcinoma	squamous
+BM030	F	7/27/1977	6/20/2022	Metastatic lung adenocarcinoma	lung
+BM031	M	6/24/1960	5/3/2022	Metastatic adenocarcinoma consistent with a lung primary	lung
+BM032	F	null	null	Brain Metastatic from Colorectal Adenocarcinoma	colorectal
+BM033	M	null	null	Brain Metastatic from Colorectal Adenocarcinoma	colorectal
+BM034	M	null	null	Brain Metastatic From Melanoma (?site of the primary melanoma)	melanoma
+BM035	M	null	null	Brain Metastatic from Colorectal Adenocarcinoma	colorectal
+BM036	F	null	null	Brain Metastatic from Colorectal Adenocarcinoma	colorectal
+BM037	M	null	null	Brain Metastatic from adenocarcinoma of gastrointestinal origin (past history of known metastatic oesophageal carcinoma so likely oesophageal)	oesophageoal
+BM039	F	null	null	Brain Metastatic from Breast Carcinoma	breast
+BM041	M	null	null	Brain Metastatic from Melanoma (?site of the primary melanoma)	melanoma
+BM042	F	null	null	Brain Metastatic from probable pulmonary adenocarcinoma (past history of adenocarcinoma of lung)	lung
+BM043	F	null	null	Brain Metastatic from Pulmonary Adenocarcinoma	lung
+BM045	M	null	null	Brain Metastatic from Prostate Adenocarcinoma	prostate
+BM046	F	null	null	Brain Metastatic From Serous Carcinoma (tubo-ovarian/primary peritoneal origin)	ovarian serous
+BM047	F	null	null	Brain Metastatic from Colorectal Adenocarcinoma	colorectal
+BM049	M	null	null	Brain Metastatic from Thyroid Follicular Carcinoma	thyroid
+BM050	M	12/24/1990	11/25/2022	Metastatic synovial sarcoma	sarcoma
+BM051	M	4/11/1949	11/29/2022	Carcinoma, consistent with metastatic breast carcinoma.	breast
+BM052	F	4/4/1972	8/18/2022	 Metastatic invasive mucinous adenocarcinoma. 	lung_mucinous
+null	F	7/22/1987	3/6/2023	Brain tumour": Features in keeping with metastatic breast carcinoma	breast
+null	F	9/6/1989	5/1/2023	Breast Primary - path report not loaded	breast
+null	F	1/13/1965	9/13/2022	metastatic breast carcinoma	breast
+null	M	4/11/1949	11/29/2022	Metastatic breast carcinoma	breast
+null	F	8/20/1954	7/30/2022	Metastatic carcinoma, features in keeping with a breast primary	breast
+null	F	4/3/1967	6/29/2022	Metastatic triple negative breast lobular carcinoma	breast
+null	F	3/17/1967	3/7/2023	Right parietal lesion: Metastatic carcinoma, consistent with breast	breast
+null	M	7/1/1972	3/21/2023	Adenocarcinoma, consistent with metastatic colorectal carcinoma	colorectal
+null	M	11/21/1946	12/5/2022	suggestive of a gastrointestinal tract/enteric-type adenocarcinoma,	gastrointestinal
+null	F	10/28/1959	1/27/2023	 Brain tissue/tumour: Consistent with metastatic lung adenocarcinoma	lung
+null	F	12/10/1954	1/13/2023	Brain tissue: Metastatic adenocarcinoma consistent with a lung primary	lung
+null	F	4/2/1959	1/25/2023	Brain tumour: Metastatic poorly differentiated carcinoma.  Features in keeping with a lung primary. 	lung
+null	F	2/4/1979	3/21/2023	Metastatic adenocarcinoma with lung primary immunophenotype	lung
+null	F	9/15/1988	12/9/2022	Metastatic carcinoma with features in keeping with lung adencarcinoma	lung
+null	F	10/7/1957	1/17/2023	Metastatic carcinoma, consistent with non-small cell lungcarcinoma NOS	lung
+null	M	3/2/1977	7/26/2022	Metastatic lung adenocarcinoma.	lung
+null	M	10/24/1970	8/8/2022	Right main bronchus tumour:  Adenocarcinoma. Clinical Notes - right main bronchus tumour in July 2020. NO REPORT ON CURRENT BRAIN MET SAMPLE	lung
+null	F	5/4/1951	7/27/2022	Metastatic poorly differentiated squamous cell carcinoma; Right frontal likely lung metastasis	lung_squamous
+null	F	2/6/1947	2/27/2023	rain tissue: Metastatic carcinoma. The findings are consistent with squamous cell carcinoma. Left frontal lobe tumour. Left frontal lobe tumour-history of lung cancer.	lung_squamous
+null	F	1/3/1954	9/1/2022	Metastatic melanoma	melanoma
+null	F	4/4/1972	8/18/2022	 Metastatic invasive mucinous adenocarcinoma. 	mucinous
+null	M	4/6/1958	8/30/2022	metastatic small cell neuroendocrine carcinoma	neuroendocrine
+null	M	12/24/1990	11/25/2022	Metastatic synovial sarcoma	sarcoma
+null	M	2/2/1965	8/2/2022	Metastatic squamous cell carcinoma.	squamous
+null	M	1/4/1943	4/21/2023	Squamous cell carcinoma	squamous
+null	F	9/28/1964	8/3/2022	Favouring metastatic carcinoma, NON-SMALL CELL	unknown
+null	M	2/5/1941	11/16/2022	Necrotic Debris - no viable tumour	unknown
+null	M	5/14/1957	3/7/2022	Necrotic Debris - no viable tumour	unknown
