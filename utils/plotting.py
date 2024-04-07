@@ -6,22 +6,7 @@ from bokeh.models import HoverTool, ColumnDataSource, CategoricalColorMapper
 # from bokeh.palettes import Spectral10
 output_notebook()
 
-def _annotate_sample_meta(data_df: pd.DataFrame, meta: dict[str, dict]) -> pd.DataFrame:
-    samples = data_df.index.values.tolist()
-    primaries = [meta['primary'][s.split('_')[0]] for s in samples]
-    commons = [meta['common'][s.split('_')[0]] for s in samples]
-    genders = [meta['gender'][s.split('_')[0]] for s in samples]
-    batches = [meta['batch'][s.split('_')[0]] for s in samples]
-
-    data_df["ident"] = pd.Series(samples, dtype=str)
-    data_df["primary"] = pd.Series(primaries, dtype=str)
-    data_df["common"] = pd.Series(commons, dtype=str)
-    data_df["gender"] = pd.Series(genders, dtype=str)
-    data_df["batch"] = pd.Series(batches, dtype=str)
-    return data_df
-
-def plot_interactive(data_df: pd.DataFrame, meta: dict[str, dict], title: str, color_by: str='primary'):
-    data_df = _annotate_sample_meta(data_df, meta)
+def plot_interactive(data_df: pd.DataFrame, title: str, color_by: str='primary'):
     
     primary_palette = ('#e6194b', '#3cb44b', '#ffe119', '#4363d8', '#f58231', '#911eb4', '#46f0f0', '#f032e6', '#bcf60c', '#fabebe', '#008080', '#e6beff', '#9a6324', '#fffac8', '#800000', '#aaffc3', '#808000')
     common_palette = ('#e6194b', '#3cb44b')
