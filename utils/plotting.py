@@ -7,7 +7,7 @@ from bokeh.models import HoverTool, ColumnDataSource, CategoricalColorMapper
 output_notebook()
 
 def _annotate_sample_meta(data_df: pd.DataFrame, meta: dict[str, dict]) -> pd.DataFrame:
-    samples = data_df.index.values
+    samples = data_df.index.values.tolist()
     primaries = [meta['primary'][s.split('_')[0]] for s in samples]
     commons = [meta['common'][s.split('_')[0]] for s in samples]
     genders = [meta['gender'][s.split('_')[0]] for s in samples]

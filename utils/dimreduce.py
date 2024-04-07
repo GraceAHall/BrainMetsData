@@ -9,7 +9,7 @@ def run_pca(genes_df: pd.DataFrame) -> pd.DataFrame:
     genes_np = genes_df.to_numpy()
     reducer = PCA(n_components=2)
     embedding = reducer.fit_transform(genes_np)
-    return pd.DataFrame(embedding, index=genes_df.index.values, columns=('x', 'y'))
+    return pd.DataFrame(embedding, index=genes_df.index.values.tolist(), columns=('x', 'y'))
 
 def run_umap(genes_df: pd.DataFrame) -> pd.DataFrame:
     genes_np = genes_df.to_numpy()
@@ -19,4 +19,4 @@ def run_umap(genes_df: pd.DataFrame) -> pd.DataFrame:
         min_dist=0.01,
     )
     embedding = reducer.fit_transform(genes_np)
-    return pd.DataFrame(embedding, index=genes_df.index.values, columns=('x', 'y'))
+    return pd.DataFrame(data=embedding, index=genes_df.index.values.tolist(), columns=('x', 'y'))
