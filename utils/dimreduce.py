@@ -4,7 +4,6 @@ import numpy as np
 import umap
 from sklearn.decomposition import PCA
 
-
 def embedding_to_df(embedding: np.ndarray, samples: np.ndarray, meta: dict[str, dict]) -> pd.DataFrame:
     donors = [s.split('_')[0] for s in samples]
     primaries = [meta['primary'][d] for d in donors]
