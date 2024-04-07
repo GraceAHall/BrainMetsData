@@ -1,5 +1,4 @@
 
-
 import pandas as pd
 from bokeh.plotting import figure, show, output_notebook
 from bokeh.models import HoverTool, ColumnDataSource, CategoricalColorMapper
