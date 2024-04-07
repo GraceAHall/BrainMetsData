@@ -13,23 +13,22 @@ def plot_interactive(data_df: pd.DataFrame, title: str, color_by: str='primary')
     gender_palette = ('#e6194b', '#3cb44b')
     batch_palette = ('#ffe119', '#4363d8', '#f58231')
 
-    primary_mapping = CategoricalColorMapper(factors=data_df['primary'].unique(), palette=primary_palette)
-    common_mapping = CategoricalColorMapper(factors=data_df['common'].unique(), palette=common_palette)
-    gender_mapping = CategoricalColorMapper(factors=data_df['gender'].unique(), palette=gender_palette)
-    batch_mapping = CategoricalColorMapper(factors=data_df['batch'].unique(), palette=batch_palette)
-
     if color_by == 'primary':
-        the_field = 'primary'
-        the_mapper = primary_mapping
+        if 'primary' not in data_df.columns:
+            raise ValueError("No 'primary' column in data_df")
+        the_mapper = CategoricalColorMapper(factors=data_df['primary'].unique(), palette=primary_palette)
     elif color_by == 'common':
-        the_field = 'common'
-        the_mapper = common_mapping
+        if 'common' not in data_df.columns:
+            raise ValueError("No 'common' column in data_df")
+        the_mapper = CategoricalColorMapper(factors=data_df['common'].unique(), palette=common_palette)
     elif color_by == 'gender':
-        the_field = 'gender'
-        the_mapper = gender_mapping
+        if 'gender' not in data_df.columns:
+            raise ValueError("No 'gender' column in data_df")
+        the_mapper = CategoricalColorMapper(factors=data_df['gender'].unique(), palette=gender_palette)
     elif color_by == 'batch':
-        the_field = 'batch'
-        the_mapper = batch_mapping
+        if 'batch' not in data_df.columns:
+            raise ValueError("No 'batch' column in data_df")
+        the_mapper = CategoricalColorMapper(factors=data_df['batch'].unique(), palette=batch_palette)
     else:
         raise ValueError("Invalid color_by value")
     
@@ -58,10 +57,10 @@ def plot_interactive(data_df: pd.DataFrame, title: str, color_by: str='primary')
         'x',
         'y',
         source=datasource,
-        color=dict(field=the_field, transform=the_mapper),
+        color=dict(field=color_by, transform=the_mapper),
         line_alpha=0.6,
         fill_alpha=0.6,
         size=8,
-        legend_label=the_field
+        legend_label=color_by
     )
     show(plot_figure)
